@@ -1,0 +1,28 @@
+{
+  "name": "framework-study",
+  "version": "1.0.0",
+  "description": "A project to write a frontend framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbasu/framework-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zbasu/framework-study/issues"
+  },
+  "homepage": "https://github.com/zbasu/framework-study#readme",
+  "private": true,
+  "workspaces": [
+    "packages/runtime",
+    "packages/compiler",
+    "packages/loader"
+  ]
+}

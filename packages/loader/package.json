@@ -1,0 +1,26 @@
+{
+  "name": "peaceful-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/peaceful.js",
+  "files": [
+    "dist/peaceful.js"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "jsdom": "^26.1.0",
+    "vitest": "^3.2.4"
+  }
+}
